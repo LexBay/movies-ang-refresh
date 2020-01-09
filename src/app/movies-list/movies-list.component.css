@@ -3,3 +3,11 @@ li{
     color: blue;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.animation{
+    color: green;
+}
+
+.clickable{
+    cursor: pointer;
+}

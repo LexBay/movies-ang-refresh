@@ -1,8 +1,8 @@
 <h3>{{name}}</h3>
 <ul>
     <li *ngFor="let movie of movies">
-        {{movie.title}},
-        {{movie.category}},
+        <span class="clickable" (click)="details(movie)">{{movie.title}}</span>,
+        <span [class.animation]="movie.category.toLowerCase() === 'animation'">{{movie.category}}</span>,
         {{movie.year}}
     </li>
 </ul>
