@@ -11,3 +11,7 @@ li{
 .clickable{
     cursor: pointer;
 }
+
+button{
+    font-family: 'Courier New', Courier, monospace;
+}
